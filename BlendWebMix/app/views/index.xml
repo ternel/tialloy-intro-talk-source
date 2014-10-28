@@ -1,5 +1,10 @@
 <Alloy>
-	<Window class="container">
-		<Label id="label">Hello, World</Label>
-	</Window>
+    <TabGroup>
+        <Tab id="speaker">
+            <Require src="speaker" />
+        </Tab>
+        <Tab id="photo">
+            <Require src="photo" />
+        </Tab>
+    </TabGroup>
 </Alloy>

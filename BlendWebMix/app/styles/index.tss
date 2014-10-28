@@ -1,15 +1,11 @@
 ".container": {
-	backgroundColor:"#000"
+	backgroundColor:"#FFFF"
 }
 
-"Label": {
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	color: "#FFF"
+"#speaker": {
+    title: "Speaker"
 }
 
-"#label": {
-	font: {
-		fontSize: 24
-	}
+"#photo": {
+    title: "Photo"
 }
