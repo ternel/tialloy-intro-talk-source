@@ -3,3 +3,7 @@
     backgroundColor:"green",
     title: "Speaker"
 }
+
+".itemContent": {
+    layout: "horizontal"
+}
