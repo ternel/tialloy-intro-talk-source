@@ -1,5 +1,5 @@
-function doClick(e) {
-    alert($.label.text);
-}
+$.label.addEventListener('click', function(e) {
+    alert("Bonjour le BlendWebMix !");
+});
 
 $.index.open();
