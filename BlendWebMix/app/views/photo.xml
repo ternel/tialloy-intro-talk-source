@@ -1,4 +1,6 @@
 <Alloy>
 	<Window class="container">
+        <Button id="takephoto" />
+        <View id="photocontainer" />
 	</Window>
 </Alloy>

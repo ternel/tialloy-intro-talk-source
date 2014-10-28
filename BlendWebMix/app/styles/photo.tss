@@ -1,4 +1,14 @@
 
 ".container" : {
-    title: "Photo"
+    title: "Photo",
+    layout: "vertical"
+}
+
+"#takephoto": {
+    title: "Take a photo",
+    width: Ti.UI.FILL
+}
+
+"#photocontainer": {
+    backgroundColor: "white"
 }
