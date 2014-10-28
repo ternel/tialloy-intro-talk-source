@@ -1,4 +1,5 @@
 var args = arguments[0] || {};
+var moment = require('alloy/moment');
 
 var data = [
     { name: "Benjamin Clay", talk: "Titanium", searchable: "benjamin clay ternel titanium alloy", date: "2014-10-29T10:30:00+01:00" },
@@ -28,5 +29,5 @@ for (var i in data) {
 $.speakers.addEventListener('itemclick', function(e) {
     var item = e.section.getItemAt(e.itemIndex);
 
-    alert(item.properties.date);
+    alert(moment(item.properties.date).format('LLL'));
 });
